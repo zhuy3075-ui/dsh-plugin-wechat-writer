@@ -11,7 +11,14 @@
 
 ## 1. 安装
 
-在 Harness 里让模型执行：
+Harness → 设置 → 插件 →「添加插件」，三选一填进输入框：
+
+| 填什么 | 值 |
+| --- | --- |
+| GitHub 仓库地址 | `https://github.com/zhuy3075-ui/dsh-plugin-wechat-writer` |
+| 本地目录路径 | 把仓库 `git clone` 到本机后填绝对路径 |
+
+也可以在对话里让模型执行：
 
 ```
 plugin_manager  install_bundle  target = <本目录绝对路径>
