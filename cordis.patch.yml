@@ -1,0 +1,15 @@
+# 公众号写作插件的加载入口。
+#
+# 安装：dsh plugin_manager install_bundle，target 指向本目录。
+# 装上后会在技能目录里出现 `wechat-writer`，并新增 4 个 wechat_writer_* 工具。
+- insert:
+    - id: wechat-writer
+      name: 'dsh-plugin-wechat-writer'
+      config:
+        # 技能数据目录（技能正文、风格库、记忆库、成稿都放这里）。
+        # 留空 = <DSH_HOME>/wechat-writer（Windows 默认 C:\Users\<你>\.dsh\wechat-writer）
+        dataDir: ''
+        # Python 解释器。留空 = 按 python → py → python3 自动探测
+        pythonPath: ''
+        # 是否随插件升级同步随包资源（不会覆盖你改过的文件）
+        seed: true

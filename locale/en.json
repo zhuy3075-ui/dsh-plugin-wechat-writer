@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "WeChat Article Writer",
+    "description": "Installs the WeChat public-account writing skill as the wechat-writer skill (persona, formatting rules, style library, memory, sample learning) plus quality-gate, style-recommend and export tools."
+  }
+}

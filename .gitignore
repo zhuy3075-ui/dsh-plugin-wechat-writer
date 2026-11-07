@@ -1,0 +1,17 @@
+node_modules/
+*.tgz
+*.log
+
+# 运行时数据（技能会在这里积累记忆和成稿）
+outputs/
+.seed-manifest.json
+
+# 本地凭证
+*.local.yaml
+.wechat_token_cache.json
+
+# 测试产物
+_test/data/
+
+# 第三方范文原文（不入库：非本人版权，只在本机学习用）
+skill/learning/samples/

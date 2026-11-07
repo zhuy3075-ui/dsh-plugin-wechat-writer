@@ -1,0 +1,5 @@
+# 统一按 LF 存储，避免 Windows 上检出 CRLF 把 .sh 脚本跑坏
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.tgz binary

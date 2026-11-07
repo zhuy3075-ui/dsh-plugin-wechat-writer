@@ -1,0 +1,46 @@
+{
+  "name": "dsh-plugin-wechat-writer",
+  "version": "1.0.0",
+  "description": "公众号写作插件：注册 wechat-writer 技能（人格/规范/风格库/记忆库/模板/脚本），并提供质检闸门、风格推荐、成稿导出工具。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skill",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "wechat",
+    "公众号",
+    "writing",
+    "skill"
+  ],
+  "author": "zhuy3075-ui",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuy3075-ui/dsh-plugin-wechat-writer.git"
+  },
+  "homepage": "https://github.com/zhuy3075-ui/dsh-plugin-wechat-writer#readme",
+  "bugs": {
+    "url": "https://github.com/zhuy3075-ui/dsh-plugin-wechat-writer/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
